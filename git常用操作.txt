@@ -5,7 +5,12 @@ git config --global user.name xxx
 git config --global user.email
 git config --global user.phone
 
-git add 将所有文件放入到暂存区（本地操作）
+git add xxx将所有文件放入到暂存区（本地操作）
 git commit将暂存区的文件放入本地Git仓库（本地操作）
 git push将项目推送到远程仓库（服务器操作）
 git管理文件有三种状态 已修改(modified)、已暂存(stager)、已提交(committed)
+
+git status 查看暂存区
+git restore -s xxx 撤销缓存区
+git restore xxx撤销修改
+git diff xxx 比较不同
