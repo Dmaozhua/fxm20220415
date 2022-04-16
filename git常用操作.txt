@@ -14,3 +14,35 @@ git status 查看暂存区
 git restore -s xxx 撤销缓存区
 git restore xxx撤销修改
 git diff xxx 比较不同
+git log pretty=oneline
+git reset --hard HEAD^ 回退上一条
+git reset --hard 版本号
+
+
+
+
+Jenkins相关-本地生成密钥 和github 服务端密钥配置
+ssh-keygen -t rsa -C'fxm_cs@163.com' 生成密钥
+c:\users\用户名\.ssh\
+git的操作 创建key 创建库,本地git连接github库
+git remote add origin https://github.com/Dmaozhua/fxm20220415.git
+git push -u origin master 将本地全部提交到服务器
+git push origin master 将修改文件上传
+
+********************************************
+token
+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
+********************************************
+git clone 远程仓库url
+
+
+git pul l从远程仓库获取代码并 合并本地版本
+
+git checkout -b 分支名 创建并切换至新分支
+git checkout 分支名 切换至指定分支
+git merge 分支名 合并指定的分支
+git branch -d 分支名 删除指定的分支
+git branch 显示分支
+git branch -d temp01
+
+
